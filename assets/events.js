@@ -8,7 +8,7 @@ const store = require('./store.js')
 
 const onGetBooks = function () {
   event.preventDefault()
-  api.getDays()
+  api.getBooks()
     .then(ui.getBooksSuccess)
     .catch(ui.failure)
 }
